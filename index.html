@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="bla">Trocar palavra</p>
+<p id="text"> trocar cor</p>
+<button onclick="a()">trocar palavra</button>
+<button onclick="b()">Branco</button>
+<button onclick="c()">Cor de Fundo</button>
+
+
+<body>
+    <script>
+        function a(){
+            let v1 = 2000;
+            let v2 = 3000;
+            let soma = v1+v2;
+            document.getElementById("bla").innerHTML = "Ola " +  soma ;
+        }
+
+        function b(){
+            document.getElementById("text").style.color = "white" ; 
+        }
+
+        function c(){
+            document.body.style.backgroundColor = "black" ; 
+        }
+    </script>
+
+    
+</body>
+</html>
